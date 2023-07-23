@@ -10,7 +10,7 @@ import {
     AiFillStar,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
-    AiOutlineUser,
+    AiOutlineUser, AiOutlineMenu,
 } from "react-icons/ai";
 
 import {CgFileDocument} from "react-icons/cg";
@@ -47,8 +47,7 @@ const NavBar = () => {
                     }}
                 >
                     <span></span>
-                    <span></span>
-                    <span></span>
+                    <AiOutlineMenu style={{marginBottom: "2px"}} color={"white"}/>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
