@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import {loadSlim} from "tsparticles-slim";
 
 
-function Particle() {
+const Particle = () => {
 
     const particlesInit = useCallback(async engine => {
         console.log(engine);
