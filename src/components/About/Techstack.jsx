@@ -14,7 +14,7 @@ import {
     SiFirebase,
     SiNextdotjs,
     SiSolidity,
-    SiPostgresql,
+    SiMysql,
     SiSpring,
 } from "react-icons/si";
 
@@ -49,7 +49,7 @@ const Techstack = () => {
                 <SiFirebase/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiPostgresql/>
+                <SiMysql/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiPython/>
