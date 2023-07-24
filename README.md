@@ -14,7 +14,7 @@ I am a software engineer with a Bachelor's degree in Software Engineering and a 
 
 ## Projects
 
-Project 1: Zerli (Java, OCSF, CSS)
+-Project 1: Zerli (Java, OCSF, CSS)
 
 [screenshot]
 
