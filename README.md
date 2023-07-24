@@ -23,7 +23,7 @@ Project 1: Zerli (Java, OCSF, CSS)
     [Link to the repository]
 
 
-Skills
+## Skills
 
     Proficient in languages such as Python, JavaScript, Java, C and C++.
     Frontend development using HTML, CSS, and JavaScript frameworks (React, NextJS).
@@ -32,7 +32,7 @@ Skills
     Familiarity with version control systems like Git and GitHub.
     Strong problem-solving and analytical abilities.
 
-Contact
+## Contact
 
 I am actively seeking new opportunities and collaborations. If you are interested in working together or discussing potential projects, please feel free to reach out to me:
 
@@ -41,7 +41,7 @@ I am actively seeking new opportunities and collaborations. If you are intereste
     Portfolio Website: [https://ai-portfolio-ilyaveruk.vercel.app/]
 
 Let's connect and create something amazing together!
-License
+## Lisence
 
 This portfolio is open-source and available under the MIT License.
 
