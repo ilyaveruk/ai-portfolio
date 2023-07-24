@@ -8,11 +8,11 @@ Elements in beautiful READMEs include, but are not limited to: images, screensho
 
 Welcome to my GitHub portfolio! I am Ilya Averuk, a passionate and results-driven software engineer with a strong background in developing cutting-edge web applications. This repository serves as a showcase of my skills, projects, and contributions to the world of technology.
 
-#About Me
+## About Me
 
 I am a software engineer with a Bachelor's degree in Software Engineering and a keen interest in solving complex problems through elegant and efficient code. With a passion for continuous learning, I am always exploring new technologies and keeping up with the latest trends in software development.
 
-#Projects
+## Projects
 
 Project 1: Zerli (Java, OCSF, CSS)
 
