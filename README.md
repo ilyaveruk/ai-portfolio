@@ -22,10 +22,6 @@ In the "Technologies" section, I showcase the diverse range of programming langu
 
 The "Skills" section outlines not only my technical skills but also the soft skills that I have cultivated over time. These skills include problem-solving, teamwork, communication, project management, and my commitment to continuous learning.
 
-## 📝 Blog
-
-To share my knowledge and experiences with the wider community, I have a dedicated blog section where I post articles on various topics related to software development, programming tips, and industry trends. This section allows me to engage with other developers and enthusiasts while contributing to the knowledge-sharing ecosystem.
-
 ## 📞 Contact
 
 The "Contact" section provides visitors with various ways to get in touch with me. Whether it's through email, social media, or professional networking platforms, I'm always open to connecting with like-minded individuals, potential employers, or collaborators.
@@ -42,4 +38,4 @@ Feel free to explore, and if you have any questions or opportunities you'd like 
 
 Happy browsing! 😊
 
-![Portfolio Website Screenshot](https://raw.githubusercontent.com/yourusername/your-repo-name/main/screenshot.png)
+
