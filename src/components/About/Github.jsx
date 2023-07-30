@@ -6,7 +6,7 @@ const Github = () => {
     return (
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
             <h1 className="project-heading" style={{paddingBottom: "20px"}}>
-                My <strong className="purple">Coding</strong> routine
+                My <strong className="blue">Coding</strong> routine
             </h1>
             <GitHubCalendar
                 username="ilyaveruk"
