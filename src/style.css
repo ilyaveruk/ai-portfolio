@@ -162,8 +162,8 @@ button:focus {
 }
 
 .logo {
-    height: 3em !important;
-    width: 3.2em !important;
+    height: 4em !important;
+    width: 4em !important;
 }
 
 .navbar-nav .nav-link {
@@ -181,8 +181,8 @@ button:focus {
         padding: 0.8rem 1rem !important;
     }
     .logo{
-        height: 2em !important;
-        width: 2.2em !important;
+        height: 2.8em !important;
+        width: 2.8em !important;
     }
 }
 
