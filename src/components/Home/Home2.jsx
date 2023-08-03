@@ -17,7 +17,7 @@ const Home2 = () => {
                             LET ME <span className="blue"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            I'm a Software Engineer with BSc. in Software Engineering
+                            I'm a final year Software Engineering student.
                             <br/>
                             <br/>
                             I am fluent in classics like
