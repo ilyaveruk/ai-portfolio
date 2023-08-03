@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {BiWorld,BiDumbbell} from "react-icons/bi";
+import {BiWorld, BiDumbbell} from "react-icons/bi";
 import {BsBicycle} from "react-icons/bs";
 import {CgCommunity} from "react-icons/cg";
 
@@ -10,16 +10,16 @@ const AboutCard = () => {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                     <p style={{textAlign: "justify"}}>
-                        Hi Everyone, I am <span className="blue">Ilya Averuk </span>
-                        from <span className="blue"> Israel.</span>
-                        <br/> I am a final year student pursuing an BSc (Bachelors of Science)
-                        in Software Engineering.
+                        Hi Everyone, I am <b className="blue">Ilya Averuk </b>
+                        from <b className="blue"> Israel.</b>
                         <br/>
-                        Additionally, I am currently employed as a software developer at
-                        MTL-3D.
+                        I'm final year student pursuing Software Engineering degree.
                         <br/>
                         <br/>
-                        Apart from coding, some other activities that I love to do!
+                        Currently working as freelance developer and also looking for new opportunities.
+                        <br/>
+                        <br/>
+                        The are some of the activities that I love to do!
                     </p>
                     <ul>
                         <li className="about-activity">

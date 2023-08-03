@@ -19,7 +19,8 @@ const Home2 = () => {
                         <p className="home-about-body">
                             I'm a Software Engineer with BSc. in Software Engineering
                             <br/>
-                            <br/>I am fluent in classics like
+                            <br/>
+                            I am fluent in classics like
                             <i>
                                 <b className="blue"> C++, C, Java, Javascript and Python. </b>
                             </i>
