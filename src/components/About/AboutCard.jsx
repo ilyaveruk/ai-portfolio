@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {ImPointRight} from "react-icons/im";
+import {BiWorld,BiDumbbell} from "react-icons/bi";
+import {BsBicycle} from "react-icons/bs";
+import {CgCommunity} from "react-icons/cg";
 
 const AboutCard = () => {
     return (
@@ -21,13 +23,16 @@ const AboutCard = () => {
                     </p>
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight/> World Travelling
+                            <BiWorld/> World Travelling
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Community Contribution
+                            <CgCommunity/> Community Contribution
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Cycling
+                            <BsBicycle/> Cycling
+                        </li>
+                        <li className="about-activity">
+                            <BiDumbbell/> Gym
                         </li>
                     </ul>
 

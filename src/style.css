@@ -6,7 +6,7 @@ html {
 
     --image-gradient: linear-gradient(
             to left,
-            #150E5C,#9C2A4B
+            #150E5C, #9C2A4B
     );
 
     --imp-text-color: #D63940;
@@ -66,7 +66,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background:  #5E1D53;
+    background: #5E1D53;
     border-radius: 12px;
 }
 
@@ -74,7 +74,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-    background-color:  #5E1D5379 !important;
+    background-color: #5E1D5379 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -95,7 +95,7 @@ button:focus {
 
 .navbar-toggle span {
     display: block !important;
-    background-color:  #5E1D5379 !important;
+    background-color: #5E1D5379 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -193,7 +193,7 @@ button:focus {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background:  #9C2A4B;
+    background: #9C2A4B;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -283,18 +283,18 @@ button:focus {
 }
 
 .main-name {
-    color:  #D63940 !important;
+    color: #D63940 !important;
 }
 
 .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color:  #D63940 !important;
+    color: #D63940 !important;
     font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
     font-size: 2.4em !important;
-    color:  #D63940 !important;
+    color: #D63940 !important;
 }
 
 @media (max-width: 767px) {
@@ -376,7 +376,7 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background:  #150E5C;
+    background: #150E5C;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -384,13 +384,13 @@ button:focus {
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px  #150E5C;
+    box-shadow: 0 0 15px #150E5C;
 }
 
 .home-social-icons:hover {
-    color:  #9C2A4B;
-    box-shadow: 0 0 5px  #9C2A4B;
-    text-shadow: 0 0 2px  #9C2A4B;
+    color: #9C2A4B;
+    box-shadow: 0 0 5px #9C2A4B;
+    text-shadow: 0 0 2px #9C2A4B;
 }
 
 .social-icons {
@@ -400,7 +400,7 @@ button:focus {
 }
 
 .icon-colour {
-    color:  #9C2A4B !important;
+    color: #9C2A4B !important;
 }
 
 /* --------- */
@@ -450,7 +450,7 @@ button:focus {
 }
 
 .blockquote-footer {
-    color:  #9C2A4B !important;
+    color: #9C2A4B !important;
 }
 
 /* --------- */
@@ -469,7 +469,7 @@ button:focus {
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px  #9C2A4B !important;
+    box-shadow: 0 4px 5px 3px #9C2A4B !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -480,7 +480,7 @@ button:focus {
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px  #9C2A4B !important;
+    box-shadow: 0 4px 4px 5px #9C2A4B !important;
 }
 
 .blog-card {
@@ -490,7 +490,7 @@ button:focus {
 
 .blog-card-view {
     background-color: transparent !important;
-    box-shadow: 0 3px 3px 2px  #9C2A4B !important;
+    box-shadow: 0 3px 3px 2px #9C2A4B !important;
     color: white !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
@@ -578,6 +578,12 @@ button:focus {
     .tech-icons {
         margin: 10px !important;
     }
+
+    .about-section {
+        padding-top: 100px !important;
+    }
+
+
 }
 
 .tech-icons:hover {
@@ -607,6 +613,17 @@ button:focus {
     .about-img {
         padding-top: 0 !important;
     }
+
+    .blockquote > p {
+        font-size: 15px !important;
+
+    }
+
+    .about-activity {
+        font-size: 15px !important;
+    }
+
+
 }
 
 /* --------- */
@@ -657,7 +674,7 @@ button:focus {
 .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
-    border-left: 2px solid #D63940 ;
+    border-left: 2px solid #D63940;
     position: relative;
 }
 
@@ -704,8 +721,8 @@ button:focus {
 }
 
 .like-btn {
-    background-color:  #9C2A4B !important;
-    border-color:  #9C2A4Ba9 !important;
+    background-color: #9C2A4B !important;
+    border-color: #9C2A4Ba9 !important;
     padding: 0.25rem 0.98rem !important;
     border-radius: 5px !important;
     line-height: 1.4 !important;
@@ -748,7 +765,7 @@ button:focus {
 
 .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
-    background-color:#D63940 !important;
+    background-color: #D63940 !important;
     border-color: #341358 !important;
 }
 

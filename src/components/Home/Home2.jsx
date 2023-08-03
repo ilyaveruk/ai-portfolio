@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import Avatar from "../../Assets/avatar250.png";
+import Avatar from "../../Assets/avatar.svg";
 import {
     AiFillGithub,
     AiFillInstagram,
@@ -51,7 +51,7 @@ const Home2 = () => {
                     </Col>
                     <Col md={4} className="myAvatar">
 
-                        <img src={Avatar} className="img-fluid" alt="avatar"/>
+                        <img src={Avatar} className="img-fluid w-75 h-75" alt="avatar"/>
 
                     </Col>
                 </Row>
