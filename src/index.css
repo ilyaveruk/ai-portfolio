@@ -5,5 +5,5 @@ body {
     font-family: "Raleway", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(to left, #150E5C, #9C2A4B);
+    background-image : radial-gradient(circle at 100%, rgb(2, 22, 49), rgb(2, 22, 49));
 }

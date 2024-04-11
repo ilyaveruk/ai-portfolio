@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {BiWorld, BiDumbbell} from "react-icons/bi";
+import {BiWorld, BiDumbbell, BiBrain} from "react-icons/bi";
 import {BsBicycle} from "react-icons/bs";
 import {CgCommunity} from "react-icons/cg";
 
@@ -16,7 +16,7 @@ const AboutCard = () => {
                         I'm final year student pursuing Software Engineering degree.
                         <br/>
                         <br/>
-                        Currently working as freelance developer and also looking for new opportunities.
+                        Currently working as software engineer and also looking for new opportunities to grow.
                         <br/>
                         <br/>
                         The are some of the activities that I love to do!
@@ -29,14 +29,14 @@ const AboutCard = () => {
                             <CgCommunity/> Community Contribution
                         </li>
                         <li className="about-activity">
-                            <BsBicycle/> Cycling
+                            <BiBrain/> Mindfulness and self growth
                         </li>
                         <li className="about-activity">
                             <BiDumbbell/> Gym
                         </li>
                     </ul>
 
-                    <p style={{color: "rgb(155 126 172)"}}>
+                    <p style={{color: "rgb(135,135,135)"}}>
                         "Everything's impossible until somebody does it!"{" "}
                     </p>
                     <footer className="blockquote-footer">Bruce Wayne</footer>

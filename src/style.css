@@ -1,12 +1,12 @@
 html {
     --section-background-color: linear-gradient(
             to left,
-            #150E5C, #9C2A4B
+            rgb(2, 22, 49), rgb(2, 22, 49)
     );
 
     --image-gradient: linear-gradient(
             to left,
-            #150E5C, #9C2A4B
+            rgb(2, 22, 49), rgb(2, 22, 49)
     );
 
     --imp-text-color: #D63940;
@@ -14,6 +14,15 @@ html {
 
 .blue {
     color: var(--imp-text-color) !important;
+}
+
+.menu-open {
+    transition: transform 0.3s ease;
+    transform: rotate(90deg);
+}
+.menu-close{
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
 }
 
 button:focus {
@@ -30,7 +39,7 @@ button:focus {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #341358;
+    background-color:  rgb(2, 22, 49);
     background-image: url(./Assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -55,18 +64,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #341358;
+    background:  rgb(2, 22, 49);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #5E1D53;
+    background:  rgb(2, 22, 49);
     border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #5E1D53;
+    background:  rgb(2, 22, 49);
     border-radius: 12px;
 }
 
@@ -74,10 +83,10 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-    background-color: #5E1D5379 !important;
+    background-color: rgba(21, 41, 85, 0.34) !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 0.171) !important;
-    backdrop-filter: blur(15px) !important;
+    backdrop-filter: blur(20px) !important;
 }
 
 .navbar {
@@ -97,7 +106,7 @@ button:focus {
 
 .navbar-toggle span {
     display: block !important;
-    background-color: #5E1D5379 !important;
+    background-color: rgba(21, 41, 85, 0.34) !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -146,7 +155,7 @@ button:focus {
     .navbar {
         padding: 0.2rem 1rem !important;
         font-size: 1.2rem !important;
-        background-color: #5E1D5379 !important;
+        background-color: rgba(21, 41, 85, 0.34) !important;
         backdrop-filter: blur(15px) !important;
     }
 
@@ -395,7 +404,7 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #150E5C;
+    background: #274265;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -403,13 +412,13 @@ button:focus {
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #150E5C;
+    box-shadow: 0 0 15px rgba(44, 62, 80, 0.25);
 }
 
 .home-social-icons:hover {
     color: #9C2A4B;
-    box-shadow: 0 0 5px #9C2A4B;
-    text-shadow: 0 0 2px #9C2A4B;
+    box-shadow: 0 0 5px #274265;
+    text-shadow: 0 0 2px #274265;
 }
 
 .social-icons {
@@ -428,7 +437,7 @@ button:focus {
 .footer {
     --section-background-color: linear-gradient(
             to left,
-            #150E5C, #9C2A4B
+            #274265, #9C2A4B
     );
     bottom: 0 !important;
     padding-top: 10px !important;
@@ -488,18 +497,19 @@ button:focus {
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px #9C2A4B !important;
+    box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.36) !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
+    border: 2px solid #274265 !important;
 }
 
 .project-card-view:hover {
-    transform: scale(1.02) !important;
+    transform: scale(1.05) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px #9C2A4B !important;
+    border: 2px solid #a52929 !important;
 }
 
 .blog-card {
@@ -509,10 +519,11 @@ button:focus {
 
 .blog-card-view {
     background-color: transparent !important;
-    box-shadow: 0 3px 3px 2px #9C2A4B !important;
+    box-shadow: 0 3px 3px 2px #274265 !important;
     color: white !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
+
 }
 
 .blog-link {
@@ -527,7 +538,7 @@ button:focus {
 .blog-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 3px 3px 5px #341358 !important;
+    box-shadow: 0 3px 3px 5px #33475c !important;
 }
 
 .card-img-top {
@@ -544,14 +555,14 @@ button:focus {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #5E1D53 !important;
-    border-color: #341358 !important;
+    background-color: #a52929 !important;
+    border-color: #274265 !important;
 }
 
 .btn-primary:hover {
     color: #fff !important;
-    background-color: #5E1D53 !important;
-    border-color: #341358 !important;
+    background-color: #df3737 !important;
+    border-color: rgb(39, 66, 101) !important;
 }
 
 .btn:focus {
@@ -583,12 +594,12 @@ button:focus {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 2px solid #9C2A4B !important;
+    border: 2px solid #274265 !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.36) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
 }
@@ -608,7 +619,7 @@ button:focus {
 .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2px solid #5E1D53 !important;
+    border: 2px solid #a52929 !important;
 }
 
 .tech-icon-images {
@@ -776,7 +787,7 @@ button:focus {
 
 .fork-btn-inner {
     line-height: 1.4em !important;
-    background-color: #9C2A4B !important;
+    background-color: #a52929 !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
@@ -785,7 +796,7 @@ button:focus {
 .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
     background-color: #D63940 !important;
-    border-color: #341358 !important;
+    border-color: #274265 !important;
 }
 
 .fork-btn-inner::after {

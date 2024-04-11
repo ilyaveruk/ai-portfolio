@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo2 from "../Assets/logo.png";
+import logo2 from "../Assets/Ilya_logo.png";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import {CgGitFork} from "react-icons/cg";
@@ -10,7 +10,7 @@ import {
     AiFillStar,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
-    AiOutlineUser, AiOutlineMenu,
+    AiOutlineUser, AiOutlineMenu, AiOutlineClose,
 } from "react-icons/ai";
 
 import {CgFileDocument} from "react-icons/cg";
@@ -18,6 +18,7 @@ import {CgFileDocument} from "react-icons/cg";
 const NavBar = () => {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(false);
 
     const scrollHandler = () => {
         if (window.scrollY >= 20) {
@@ -44,11 +45,23 @@ const NavBar = () => {
                     aria-controls="responsive-navbar-nav"
                     onClick={() => {
                         updateExpanded(expand ? false : "expanded");
+                        setMenuOpen(!isMenuOpen);  // Toggle menu open
                     }}
                 >
                     <span></span>
-                    <AiOutlineMenu style={{marginBottom: "2px"}} color={"white"}/>
-                </Navbar.Toggle>
+                    {isMenuOpen ? (
+                        <AiOutlineClose
+                            style={{marginBottom: "2px"}}
+                            color={"white"}
+                            className={"menu-open"}  // Apply class conditionally
+                        />
+                    ) : (
+                        <AiOutlineMenu
+                            style={{marginBottom: "2px"}}
+                            color={"white"}
+                            className={"menu-close"}  // Apply class conditionally
+                        />
+                    )}</Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
