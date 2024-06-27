@@ -7,12 +7,10 @@ import {
     DiNodejs,
     DiMongodb,
     DiPython,
-    DiGit,
-    DiJava,
+    DiJava, DiGithub,
 } from "react-icons/di";
 import {
     SiFirebase,
-    SiNextdotjs,
     SiSolidity,
     SiMysql,
     SiSpring,
@@ -40,10 +38,7 @@ const Techstack = () => {
                 <DiMongodb/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiNextdotjs/>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiGit/>
+                <DiGithub/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiFirebase/>

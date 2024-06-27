@@ -65,7 +65,7 @@ const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                            <Nav.Link as={Link} to="/" onClick={() => {updateExpanded(false); setMenuOpen(!isMenuOpen);}}>
                                 <AiOutlineHome style={{marginBottom: "2px"}}/> Home
                             </Nav.Link>
                         </Nav.Item>
@@ -74,7 +74,7 @@ const NavBar = () => {
                             <Nav.Link
                                 as={Link}
                                 to="/about"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => {updateExpanded(false); setMenuOpen(!isMenuOpen);}}
                             >
                                 <AiOutlineUser style={{marginBottom: "2px"}}/> About
                             </Nav.Link>
@@ -84,7 +84,7 @@ const NavBar = () => {
                             <Nav.Link
                                 as={Link}
                                 to="/project"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => {updateExpanded(false); setMenuOpen(!isMenuOpen);}}
                             >
                                 <AiOutlineFundProjectionScreen
                                     style={{marginBottom: "2px"}}
@@ -97,7 +97,7 @@ const NavBar = () => {
                             <Nav.Link
                                 as={Link}
                                 to="/resume"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => {updateExpanded(false); setMenuOpen(!isMenuOpen);}}
                             >
                                 <CgFileDocument style={{marginBottom: "2px"}}/> Resume
                             </Nav.Link>

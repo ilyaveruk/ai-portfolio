@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {BiWorld, BiDumbbell, BiBrain} from "react-icons/bi";
-import {BsBicycle} from "react-icons/bs";
+import {BiWorld, BiDumbbell, BiBrain, BiBitcoin} from "react-icons/bi";
 import {CgCommunity} from "react-icons/cg";
 
 const AboutCard = () => {
@@ -33,6 +32,9 @@ const AboutCard = () => {
                         </li>
                         <li className="about-activity">
                             <BiDumbbell/> Gym
+                        </li>
+                        <li className="about-activity">
+                            <BiBitcoin/> Crypto enthusiast
                         </li>
                     </ul>
 

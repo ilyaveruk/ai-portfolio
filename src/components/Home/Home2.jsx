@@ -28,7 +28,7 @@ const Home2 = () => {
                             <br/>
                             My field of Interest's are building new &nbsp;
                             <i>
-                                <b className="blue">Web Technologies and Products </b> and
+                                <b className="blue">Web Technologies, Large systems and Products </b> and
                                 also in areas related to{" "}
                                 <b className="blue">
                                     Blockchain and NFTs.
@@ -46,7 +46,7 @@ const Home2 = () => {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="blue"> React.js and Next.js</b>
+                                <b className="blue"> ReactJS and Angular</b>
                             </i>
                         </p>
                     </Col>
